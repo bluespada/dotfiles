@@ -1,0 +1,19 @@
+# TERM
+term = xterm-256color
+# font-family = "MonoLisa Nerd Font Mono"
+font-family = "FantasqueSansM Nerd Font"
+font-size = 12.5
+
+# background thing and stuff
+background-opacity = 0.95
+background-blur-radius = 18
+
+# decoration and stuff
+cursor-style-blink = true
+window-decoration = false
+mouse-hide-while-typing = true
+window-vsync = true
+theme = OneHalfDark
+
+
+# keybind
