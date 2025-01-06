@@ -14,8 +14,7 @@
     ],
     "custom/arch": {
         "format": "   ",
-        "tooltip": false,
-        // "on-click": "sh $HOME/.config/rofi/bin/powermenu"
+        "tooltip": false
     },
     "hyprland/workspaces": {
         "format": "{icon}",
@@ -28,47 +27,47 @@
     },
     "cpu": {
         "interval": 1,
-        "format": "<span color='#61afef'>{icon} </span> {usage}%",
+        "format": "<span color='#A3D4F7'>{icon} </span> {usage}%",
         "format-icons": [
-            "<span color='#98c379'>▁</span>", // green (One Dark green)
-            "<span color='#56b6c2'>▂</span>", // blue (One Dark blue)
-            "<span color='#abb2bf'>▃</span>", // white/gray (One Dark light gray)
-            "<span color='#abb2bf'>▄</span>", // white/gray (One Dark light gray)
-            "<span color='#e5c07b'>▅</span>", // yellow (One Dark yellow)
-            "<span color='#e5c07b'>▆</span>", // yellow (One Dark yellow)
-            "<span color='#d19a66'>▇</span>", // orange (One Dark orange)
-            "<span color='#e06c75'>█</span>" // red (One Dark red)
+            "<span color='#7E9CD8'>▁</span>", // Dragon Indigo
+            "<span color='#2F5E9E'>▂</span>", // Dragon Deep Blue
+            "<span color='#A3D4F7'>▃</span>", // Dragon Light Blue
+            "<span color='#C34043'>▄</span>", // Dragon Red
+            "<span color='#DCA561'>▅</span>", // Dragon Yellow
+            "<span color='#C0A36E'>▆</span>", // Dragon Gold
+            "<span color='#957FB8'>▇</span>", // Dragon Violet
+            "<span color='#FF9E3B'>█</span>"  // Dragon Orange
         ]
     },
     "memory": {
         "interval": 1,
-        "format": "<span color='#61afef'> </span>{percentage}%",
+        "format": "<span color='#A3D4F7'> </span>{percentage}%",
         "max-length": 10
     },
     "disk": {
         "interval": 1,
-        "format": "<span color='#61afef'> </span> {specific_used:0.2f} GB",
+        "format": "<span color='#A3D4F7'> </span> {specific_used:0.2f} GB",
         "unit": "GB",
         "path": "/"
     },
     "clock": {
-        "format": "<span color='#61afef'> </span> {:%H:%M %p}",
+        "format": "<span color='#A3D4F7'> </span> {:%H:%M %p}",
         "tooltip": true,
-        "tooltip-format": "<span color='#61afef'> </span>\n{calendar}",
+        "tooltip-format": "<span color='#A3D4F7'> </span>\n{calendar}",
         "calendar": {
             "mode"          : "year",
             "mode-mon-col"  : 3,
             "weeks-pos"     : "right",
             "on-scroll"     : 1,
             "format": {
-                "months":     "<span color='#c5c8c6'><b>{}</b></span>",  // One Dark Light Grey for months
-                "days":       "<span color='#f8f8f2'><b>{}</b></span>",  // One Dark Light Gray for days
-                "weeks":      "<span color='#e06c75'><b>W{}</b></span>",  // One Dark accent color (pinkish)
-                "weekdays":   "<span color='#61afef'><b>{}</b></span>",  // One Dark light cyan for weekdays
-                "today":      "<span color='#a8e08d'><b><u>{}</u></b></span>"  // One Dark green for today
+                "months":     "<span color='#7FB4CA'><b>{}</b></span>",  // Dragon Light Cyan
+                "days":       "<span color='#A3D4F7'><b>{}</b></span>",  // Dragon Light Blue
+                "weeks":      "<span color='#957FB8'><b>W{}</b></span>", // Dragon Violet
+                "weekdays":   "<span color='#DCA561'><b>{}</b></span>",  // Dragon Yellow
+                "today":      "<span color='#98BB6C'><b><u>{}</u></b></span>"  // Dragon Green
             }
         },
-        "actions":  {
+        "actions": {
             "on-click-right": "mode",
             "on-scroll-up": "tz_up",
             "on-scroll-down": "tz_down",
@@ -78,11 +77,11 @@
     },
     "backlight": {
         "device": "intel_backlight",
-        "format": "<span color='#61afef'>{icon}</span> {percent}%",
+        "format": "<span color='#A3D4F7'>{icon}</span> {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "pulseaudio": {
-        "format": "<span color='#61afef'>{icon}</span> {volume}%",
+        "format": "<span color='#A3D4F7'>{icon}</span> {volume}%",
         "format-muted": "",
         "tooltip": false,
         "format-icons": {
@@ -92,29 +91,29 @@
         "scroll-step": 1
     },
     "bluetooth": {
-        "format": "<span color='#61afef'></span> {status}",
-        "format-disabled": "", // an empty format will hide the module
-        "format-connected": "<span color='#61afef'></span> {num_connections}",
+        "format": "<span color='#A3D4F7'></span> {status}",
+        "format-disabled": "",
+        "format-connected": "<span color='#A3D4F7'></span> {num_connections}",
         "tooltip-format": "{device_enumerate}",
         "tooltip-format-enumerate-connected": "{device_alias}   {device_address}"
     },
     "network": {
         "interface": "wlan0",
         "format": "{ifname}",
-        "format-wifi": "<span color='#61afef'> </span> {essid}",
+        "format-wifi": "<span color='#A3D4F7'> </span> {essid}",
         "format-ethernet": "{ipaddr}/{cidr} ",
-        "format-disconnected": "<span color='#61afef'>󰖪 </span>No Network",
+        "format-disconnected": "<span color='#C34043'>󰖪 </span>No Network",
         "tooltip": false
     },
     "battery": {
-        "format": "<span color='#61afef'>{icon}</span> {capacity}%",
+        "format": "<span color='#A3D4F7'>{icon}</span> {capacity}%",
         "format-icons": ["󰂃", "󰂃", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󱟢"],
-        "format-charging": "<span color='#61afef'>󰂄</span> {capacity}%",
+        "format-charging": "<span color='#98BB6C'>󰂄</span> {capacity}%",
         "tooltip": false
     },
     "tray": {
         "icon-size": 14,
         "spacing": 10,
         "reverse-direction": true
-    },
+    }
 }

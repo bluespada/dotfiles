@@ -12,8 +12,8 @@ window#waybar {
 
 #custom-arch, #workspaces {
     border-radius: 10px;
-    background-color: #16161D; /* Kanagawa Dragon background */
-    color: #C8C093; /* Kanagawa Dragon light gray */
+    background-color: #282C34; /* One Dark background */
+    color: #ABB2BF; /* One Dark light gray */
     margin-top: 15px;
     margin-right: 10px;
     padding-top: 0px;
@@ -24,18 +24,18 @@ window#waybar {
 #custom-arch {
     font-size: 20px;
     margin-left: 15px;
-    color: #658594; /* Kanagawa Dragon blue-gray */
+    color: #61AFEF; /* One Dark blue */
 }
 
 #workspaces button {
-    background: #16161D; /* Kanagawa Dragon background */
-    color: #658594; /* Kanagawa Dragon blue-gray */
+    background: #282C34; /* One Dark background */
+    color: #61AFEF; /* One Dark blue */
 }
 
 #tray, #memory, #cpu, #disk, #clock, #backlight, #pulseaudio, #bluetooth, #network, #battery {
     border-radius: 10px;
-    background-color: #16161D; /* Kanagawa Dragon background */
-    color: #C8C093; /* Kanagawa Dragon light gray */
+    background-color: #282C34; /* One Dark background */
+    color: #ABB2BF; /* One Dark light gray */
     margin-top: 15px;
     padding-left: 10px;
     padding-right: 10px;
@@ -68,7 +68,9 @@ window#waybar {
 }
 
 #clock:hover {
-    background-color: #223249;  /* Kanagawa Dragon hover background */
-    color: #C8C093;  /* Kanagawa Dragon hover text */
+    background-color: #282c34;  /* OneDark background color */
+    color: #abb2bf;  /* OneDark text color */
     transition: background-color 0.1s, color 0.2s;
 }
+
+
