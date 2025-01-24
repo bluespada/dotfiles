@@ -1,0 +1,515 @@
+clear
+ll
+ls
+clear
+ls
+~/
+clear
+ls
+ls | look paru
+cd ~/.
+ls
+ll
+/home/bluespada/
+lcear
+clear
+ll
+ls
+exit
+clear
+ll
+clear
+all
+ll
+dirname 
+dir
+cd Videos/
+dir
+file 
+..
+clear
+ll
+config nu
+$env.config.buffer_editor = "nvim"
+config nu
+$env.env-path
+$nu.env-path
+nvim .config/nushell/env.nu
+$nu.config-path
+nvim .config/nushell/config.nu
+clear
+ll
+dir
+clear
+which nu
+chsh
+exit
+omf
+nvm
+clear
+paru -Runs nvm
+which nvm
+nvm
+ll -a
+ls -a
+rm -rf .nvm/
+clear
+bun
+.bun/bin/bun
+.bun/bin/bun update
+.bun/bin/bun upgrade
+curl
+curl -fsSL https://fnm.vercel.app/install | bash
+clear
+paru -S fnm
+clear
+bash
+clear
+ll
+clear
+ls -a
+clear
+cargo install fnm
+fnm
+nvim .config/nushell/env.nu
+$env.env-path
+$env.PATH | explore
+ls | explore
+$env.PATH = ($env.PATH | append '~/.bun/bin')
+bunzip2 
+bun
+clear
+$env.PATH = ($env.PATH | append '~/.cargo/bin')
+clear
+fnm
+bun
+nvim .cache/starship/init.nu
+nvim .config/nushell/env.nu
+clear
+nvim .config/fish/config.fish
+fnm
+fnm list
+fnm list-remote
+fnm install iron
+fnm
+fnm env
+fnm install iron
+fnm list-remote
+nvm
+fnm i v20.18.1
+node
+ll -a
+ll
+ls -a
+bash
+nvim .config/nushell/env.nu
+node
+clear
+node --version
+fnm l
+fnm ls-remote
+fnm i v22.12.0
+fnm use v22.12.0
+node --version
+bash
+nvim .config/nushell/env.nu
+fnm ls
+fnm use v22.12.0
+node --version
+clear
+z
+clear
+ll
+l
+ll
+cd Workspaces/Personal/
+ll
+ll -a
+ls -a
+git clone https://github.com/bluespada/gnm.git
+clear
+cd gnm/clear
+cd gnm
+go mod init
+go mod init github.com/bluespada/gnm
+clear
+ll
+ls -a
+mkdir cmd
+mkdir internal
+touch cmd/main.go
+nvim .
+clear
+cd Workspaces/Personal/gnm/
+clear
+go run cmd/*.go
+clear
+nvim .
+clear
+go get
+go get github.com/bytedance/sonic@latest
+go get github.com/spf13/cobra
+go get github.com/spf13/cobra@latest
+clear
+ll
+ls -a
+clear
+ls -a
+nvim .
+clear
+cd ~/.config/nvim/
+nvim .
+clear
+cd ~/Workspaces/Personal/gnm/
+clear
+ll
+nvim .
+cd .config/nvim/
+nvim .
+nvim
+clear
+git add .
+cz commit
+git push origin 
+clear
+cd Workspaces/Personal/gnm/
+clear
+ll
+nvim ~/.config/nushell/config.nu
+clear
+ls -a
+ls -l
+clear
+exit
+ls
+la
+ll
+la
+exit
+ll
+ll | find "p"
+ll | find "picture"
+clear
+nvim ~/.config/nushell/config.nu
+clear
+ll
+cd Workspaces/Personal/gnm/
+clear
+ll
+clear
+ll
+go run cmd/*.go
+clear
+go run cmd/*.go
+clear
+nvim .
+clear
+go run cmd/*.go
+go run cmd/*.go | explore
+go run cmd/*.go | find "Jod"
+go run cmd/*.go | find 
+go run cmd/*.go | find ""
+clear
+go run cmd/*.go | find ""
+go run cmd/*.go
+clear
+nvim .
+go get github.com/schollz/progressbar@latest
+clear
+go get github.com/schollz/progressbar/v3@latest
+go run cmd/*.go
+ll
+ls
+cat index.json
+clear
+rm -rf index.json
+clear
+go run cmd/*.go
+clear
+ll
+ls
+rm -rf node_dist.json
+clear
+ll
+ls -l
+ls -a
+clear
+go run cmd/*.go
+nvim 
+cz commit
+git push origin 
+git rm -r node_dist.json
+git add .
+cz commit
+git push origin 
+clear
+ll
+z Workspaces/Personal/
+cd Workspaces/Personal/
+cd Workspaces/Personal/gnm
+cd Workspace
+cd gnm/
+clear
+ll
+node --version
+nvim .
+git add .
+cz commit
+git push origin 
+clear
+nvim .
+go run cmd/*.go
+clear
+go run cmd/*.go
+gh repo ignore >> .gitignore
+gh repo gitignore >> .gitignore
+gh repo gitignore view Go >> .gitignore
+clear
+cat .gitignore
+gh repo gitignore view Go >> .gitignore
+gh repo gitignore view go.mod
+gh repo gitignore view
+gh repo gitignore
+gh repo gitignore view
+gh repo gitignore view Go
+gh repo gitignore view Go >> .gitignore
+gh repo gitignore view Go
+nvim .gitignore
+cear
+clear
+ll
+clear
+ll
+cd Workspaces/Personal/gnm
+clear
+go run cmd/*.go
+clear
+ll
+$nu.config-path | explore
+$env.PATH | explore
+go run cmd/*.go
+ll
+~/.gnm
+ls ~/
+ls -a ~/ 
+ll 
+la
+ls -a
+go run cmd/*.go
+ls ~/
+ls -a ~/
+clear
+go run cmd/*.go
+node --version
+mkdir ~/.gnm/dist/node/v20.18.1
+go run cmd/*.go
+ll -a ~/.gnm/dist/node/v20.18.1
+ll -a ~/.gnm/dist/node
+go run cmd/*.go
+rm -rf ~/dist
+clear
+ll -a ~/
+clear
+go run cmd/*.go
+clear
+go run cmd/*.go
+clear
+go run cmd/*.go
+clear
+go run cmd/*.go
+bash
+clear
+go run cmd/*.go
+go run cmd/*.go --help
+go run cmd/*.go list
+go run cmd/*.go
+go run cmd/*.go --help
+go run cmd/*.go ls
+go run cmd/*.go list --help
+go run cmd/*.go 
+go run cmd/*.go --help
+go run cmd/*.go ls-r
+go run cmd/*.go ls-remote
+clear
+go run cmd/*.go ls-remote
+clear
+git add .
+cz commit
+git push origin 
+clear
+git add .
+cz commit
+clear
+git add .
+cz commit
+git push origin 
+nvim .
+clear
+ll
+clear
+ll
+..
+ll
+clear
+clear
+cargo install zoxide
+nvim .config/nushell/env.n
+nvim .config/nushell/env.nu
+~/
+clear
+nvim .config/nushell/env.nu
+nvim .config/nushell/config.nu
+zoxide
+nvim .config/nushell/env.nu
+nvim .config/nushell/config.nu
+fzf
+clear
+nupm
+plugin list 
+cargo install nu_plugin_clipboard
+clear
+clear
+z gnm/
+z 
+zoxide
+z Desktop/
+z gnm
+clear
+..
+cd Workspaces/Personal/gnm
+clear
+ll
+clear
+z gnm
+clear
+ll
+z gnm
+go run cmd/*.go ls-remote
+go run cmd/*.go --help
+clear
+go run cmd/*.go --help
+go run cmd/*.go list
+go run cmd/*.go --help
+go run cmd/*.go i
+go run cmd/*.go install
+go run cmd/*.go l
+go run cmd/*.go ls-r
+go run cmd/*.go ls-remote
+go run cmd/*.go i v22.12.0
+go run cmd/*.go i v22.12.0 sad
+clear
+go run cmd/*.go i v22.12.0
+clear
+go run cmd/*.go i v22.12.0
+clear
+go run cmd/*.go i v22.12.0
+clear
+go run cmd/*.go i v22.12.0
+clear
+go run cmd/*.go i v22.12.0
+clear
+go run cmd/*.go i v22.12.0
+ll ~/.gnm/dist/node/v20.18.1/
+ll ~/.gnm/dist/node/v22.12.0
+go run cmd/*.go l
+go run cmd/*.go ls
+clear
+ll
+clear
+~/.gnm
+l
+ll
+clear
+ll
+cd dist/
+ll
+cd node/
+ll
+cd ~/gnm
+z gnm
+go run cmd/*.go ls
+go run cmd/*.go i v22.12.0
+rm -rf ~/.gnm/
+go run cmd/*.go i v22.12.0
+ls ~/.gnm
+nupm
+clear
+plugin add
+plugin add nupm
+~/
+nvim .config/nushell/nunvm.u
+.config/nushell/
+ll
+mv nunvm.u nunvm.nu
+clear
+ll
+nu nunvm.nu
+nvim .
+clear
+~?
+~/
+nvim .config/nvim/lua/plugins/default.lua
+nvim
+z gnm
+clear
+z gnm
+clear
+ll
+go run cmd/*.go i v22.12.0
+ll ~/.gnm/dist/node/v22.12.0
+ll ~/.gnm/dist
+ll ~/.gnm
+ll
+cd dist/
+ll
+..
+rm -rf dist/
+clear
+rm -rf dist/
+go run cmd/*.go i v22.12.0
+ls ~/.gnm/
+ls ~/.gnm/dist/
+ls ~/.gnm/dist/node/
+ls ~/.gnm/dist/node/v22.12.0/
+go run cmd/*.go i v22.12.0
+ls ~/.gnm/dist/node/v22.12.0/
+cd ~/.gnm/dist/node/v22.12.0/
+ll
+tar xf v22.12.0.tar.gz
+ll
+cd node-v22.12.0-linux-x64/
+ll
+./bin/node
+./bin/node --version
+z gnm
+clear
+git add .
+cz commit
+git push origin 
+clear
+ll
+clear
+exit
+nvim .
+clear
+shutdown now
+cd .config/nvim/
+clear
+ll
+git add .
+cz commit
+clear
+git reset
+git diff 
+git diff | from csv 
+git diff | explore
+git diff | from ssv 
+git diff | from ods 
+git diff | from ssv
+clear
+git add .
+cz commit
+git push origin 
+clear
+ll
+..

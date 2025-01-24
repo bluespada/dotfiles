@@ -13,7 +13,7 @@
         "clock"
     ],
     "custom/arch": {
-        "format": "  ",
+        "format": "   ",
         "tooltip": false
     },
     "hyprland/workspaces": {
@@ -29,14 +29,14 @@
         "interval": 1,
         "format": "<span color='#A3D4F7'>{icon} </span> {usage}%",
         "format-icons": [
-            "<span color='#2F5E9E'>▁</span>", // Deep Blue (level rendah)
-            "<span color='#7E9CD8'>▂</span>", // Indigo Blue
-            "<span color='#A3D4F7'>▃</span>", // Light Blue
-            "<span color='#DCA561'>▄</span>", // Yellow
-            "<span color='#FF9E3B'>▅</span>", // Orange
-            "<span color='#C34043'>▆</span>", // Deep Red
-            "<span color='#957FB8'>▇</span>", // Violet (transisi warna, opsional)
-            "<span color='#C34043'>█</span>"  // Full Red (level tinggi)
+            "<span color='#7E9CD8'>▁</span>", // Dragon Indigo
+            "<span color='#2F5E9E'>▂</span>", // Dragon Deep Blue
+            "<span color='#A3D4F7'>▃</span>", // Dragon Light Blue
+            "<span color='#C34043'>▄</span>", // Dragon Red
+            "<span color='#DCA561'>▅</span>", // Dragon Yellow
+            "<span color='#C0A36E'>▆</span>", // Dragon Gold
+            "<span color='#957FB8'>▇</span>", // Dragon Violet
+            "<span color='#FF9E3B'>█</span>"  // Dragon Orange
         ]
     },
     "memory": {
